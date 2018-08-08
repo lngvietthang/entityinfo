@@ -1,0 +1,22 @@
+# Birth Day
+birth_day, "(ngày|năm) sinh (của )*(?P<name>[\p{l}\s]+)(là|$)"
+birth_day, "(?P<name>[\p{l}\s]+) sinh (ngày|năm)"
+birth_day, "(?P<name>[\p{l}\s]+) sinh (ra )*lúc nào"
+# Death Day
+death_day, "(ngày|năm) (nào )*(?P<name>[\p{l}\s]+)(mất|chết|qua đời)"
+death_day, "(ngày|năm) mất (của )*(?P<name>[\p{l}\s]+)(là|$)"
+death_day, "(?P<name>[\p{l}\s]+) (mất|chết|qua đời) (ngày|năm)"
+death_day, "(?P<name>[\p{l}\s]+) (mất|chết|qua đời) lúc nào"
+# Physical Info
+height, "chiều cao (của )*(?P<name>[\p{l}\s]+)(là )*(bao nhiêu|$)"
+height, "(?P<name>[\p{l}\s]+) cao"
+weight, "cân nặng (của )*(?P<name>[\p{l}\s]+)(là )*(bao nhiêu|$)"
+weight, "(?P<name>[\p{l}\s]+) nặng"
+# Title
+title, "(chức vụ|vị trí) (của )*(?P<name>[\p{l}\s]+)"
+# Relationship
+spouse, "(vợ|chồng) (của )*(?P<name>[\p{l}\s]+)"
+child, "con (trai|gái) (của )*(?P<name>[\p{l}\s]+)"
+child, "(?P<name>[\p{l}\s]+) có (bao nhiêu|mấy) (đứa|(đứa )*con)"
+child, "con (đầu|thứ|út) (của )*(?P<name>[\p{l}\s]+)"
+child, "con của (?P<name>[\p{l}\s]+)"

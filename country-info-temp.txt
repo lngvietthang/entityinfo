@@ -1,0 +1,16 @@
+# Size
+size, "(kích (thước|cỡ)|diện tích) (của )*(?P<country>[\p{l}\s]+)"
+# Population
+population, "(dân số|số dân) (của )*(?P<country>[\p{l}\s]+)"
+population, "(?P<country>[\p{l}\s]+) (có )*bao nhiêu (người|dân)"
+# Goverment
+president, "(tổng thống|chủ tịch nước) (của )*(?P<country>[\p{l}\s]+)"
+vice_president, "phó tổng thống (của )*(?P<country>[\p{l}\s]+)"
+general_secretary, "tổng bí thư (của )*(?P<country>[\p{l}\s]+)"
+prime_minister, "thủ tướng (của )*(?P<country>[\p{l}\s]+)"
+deputy_prime_minister, "phó thủ tướng (của )*(?P<country>[\p{l}\s]+)"
+# Capital
+capital, "thủ đô (của )*(?P<country>[\p{l}\s]+)"
+# Economics
+gdp, "[Gg][Dd][Pp] (của )*(?P<country>[\p{l}\s]+)"
+gdp, "(?P<country>[\p{l}\s]+) [Gg][Dd][Pp]"
